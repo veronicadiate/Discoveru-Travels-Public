@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Discoveru Travels</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">
+        
+        <!-- Google Fonts -->   
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- Bootstrap Stylesheet -->   
+        <link rel="stylesheet" href="css/bootstrap-4.4.1.min.css">
+        
+
+        <!-- Sidebar Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+        
+        <!-- Font Awesome Stylesheet -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+            
+        <!-- Custom Stylesheets --> 
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" id="cpswitch" href="css/orange.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    
+        <!-- Owl Carousel Stylesheet -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        
+        <!-- Flex Slider Stylesheet -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+        
+        <!--Date-Picker Stylesheet-->
+        <link rel="stylesheet" href="css/datepicker.css">
+    </head>
+    
+    
+    <body id="tour-homepage" data-spy="scroll">
+
+<!--start  universal nav -->    
+<!--LOADER -->
+        <div class="loader"></div>
+
+<!--TOP-BAR-->
+        <div id="top-bar" class="tb-text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div id="info">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><span><i class="fa fa-map-marker"></i></span>28 ABC, Brisbane City, QLD</li>
+                                <li class="list-inline-item"><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+<!--flex-->
+        <section class="flexslider-container" id="flexslider-container-6">
+            
+            <div class="header-absolute">
+                <nav class="navbar navbar-expand-xl main-navbar navbar-custom navbar-transparent bg-transparent nav-links-active" id="mynavbar">
+                    <div class="container">
+                    
+                        <a href="#" class="navbar-brand py-1 my-auto">
+                            <span>
+                                <img src="images/icons/discoverulogo.png" alt="Icon">
+                            </span>
+                        </a>
+                       <button class="navbar-toggler ml-2 burger-menu-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
+                            <span class="burger-icon"></span>
+                        </button>
+
+<!--navbar header 3-->         
+                        <div class="collapse navbar-collapse" id="myNavbar1">
+
+                            <ul class="navbar-nav ml-auto navbar-search-link">
+                                <li class="nav-item"><a class="nav-link px-4" href="discoveruloggedin.html">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link px-4" href="ad-loggedin.html">Find Deals</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="discoveruloggedin.html#travel-guides">Travel Guide</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="discoveruloggedin.html#testimonials">Reviews</a></li>
+                                <li class="nav-item ml-xl-3"><a class="nav-link px-4" href="student-dashboard.html">Manage Booking</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="student-dashboard.html">My Account</a></li>
+                                <li class="nav-item">
+                                  <!-- SEARCH-BOX-->
+                                  <div class="search-container">
+                                    <div class="search-box">
+                                      <input type="text" placeholder="Destination..." id="search-input">
+                                      <button type="button" id="search-button">
+                                        <img src="images/icons/search.png" alt="Search" class="search-icon">
+                                      </button>
+                                    </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                 </nav>
+            </div>
+            
+            <div class="sidenav-content">
+<!--Sidebar-->
+                <nav id="sidebar" class="sidenav">
+                        <h2 id="web-name">
+                          <span>
+                            <img src="images/icons/discoverulogo.png" alt="Icon">
+                          </span>
+                        </h2>
+            
+                    <div id="main-menu">
+                        <div id="dismiss">
+                            <button class="btn" id="closebtn">&times;</button>
+                        </div>
+                        <div class="list-group panel">
+<!--check all icons-->
+                                <a class="items-list " href="discoveruloggedin.html">
+                                <span><i class="fa fa-home link-icon"></i></span>Home</a>
+
+                                <a class="items-list active" href="ad-loggedin.html"><span><i class="fa fa-plane link-icon"></i></span>Find Deals</a>
+
+                                <a class="items-list" href="discoveruloggedin.html#travel-guides"><span><i class="fa fa-building link-icon"></i></span>Travel Guides</a>
+
+                                <a class="items-list" href="discoveruloggedin.html#testimonials"><span><i class="fa fa-ship link-icon"></i></span>Reviews</a>
+
+                                <a class="items-list" href="student-dashboard.html"><span><i class="fa fa-car link-icon"></i></span>Manage Booking</a>
+
+                                <a class="items-list" href="student-dashboard.html" class="il"><span><i class="fa fa-globe link-icon"></i></span>Login</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        
+<!--Flx slider for page cover ads details-->
+<!--(re-used slider properties from header slider)--> 
+        <section class="flexslider-container" id="flexslider-container-6" style="height: 60%;">        
+            <div class="flexslider slider tour-slider" id="slider-6">
+                <ul class="slides">
+                    <!--fetch images from advertiser uploads-->
+                    <li class="item-1 back-size" style="background: url(images/ads-pagecover.png); background-size: cover">
+                    </li>
+                    
+                    <li class="item-2 back-size" style="background:url(images/ads-pagecover2.jpeg); background-size:cover">
+                    </li>
+                </ul>
+            </div>
+        </section>
+                            
+<!--===== INNERPAGE-WRAPPER ====-->
+<section class="innerpage-wrapper">
+    <div id="tour-details" class="innerpage-section-padding">
+                <div class="items-list active" style="font-size: 17px; font-family: sans-serif; color: black; margin-left: 100px;">
+                    <a href="ad-loggedin.html#more-listing">Back</a>
+                </div>
+                <div class="container">
+                    <div class="row"> 
+                        <div class="ads-location">
+                            <h2>Replace with actual title using script</h2>
+                            <p>City</p>    
+                        </div>
+
+                        
+                        <div class="col-12 col-md-12 col-lg-9 col-xl-9 content-side">
+                            
+                            <div class="detail-slider">
+                                <div class="feature-slider">
+                                    <div><img src="images/t-feature-1.jpg" class="img-fluid" alt="feature-img"/></div>
+                                </div><!-- end feature-slider -->
+
+                                <div class="detail-tabs">
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <li class="nav-item active"><a class="nav-link" href="#tour-information" data-toggle="tab">Tour Information</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#flight" data-toggle="tab">Flight</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#map-overview" data-toggle="tab">View Map</a></li>
+                                    </ul>
+                                
+                                    <div class="tab-content">
+            
+                                        <div id="tour-information" class="tab-pane in active">
+                                            <div class="row">
+                                                <div class="col-md-4 col-lg-4 tab-img">
+                                                    <img src="images/hotel-detail-tab-1.jpg" class="img-fluid" alt="flight-detail-img" />
+                                                </div><!-- end columns -->
+                                                
+                                                <div class="col-md-8 col-lg-8 tab-text">
+                                                    <h3>Tour Information</h3>
+                                                    <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                </div><!-- end columns -->
+                                            </div><!-- end row -->
+                                        </div><!-- end hotel-overview -->
+                                    
+                                        <div id="flight" class="tab-pane">
+                                            <div class="row">
+                                                <div class="col-md-4 col-lg-4 tab-img">
+                                                    <img src="images/hotel-detail-tab-2.jpg" class="img-fluid" alt="flight-detail-img" />
+                                                </div><!-- end columns -->
+                                                
+                                                <div class="col-md-8 col-lg-8 tab-text">
+                                                    <h3>Flight</h3>
+                                                    <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                </div><!-- end columns -->
+                                            </div><!-- end row -->
+                                        </div><!-- end restaurant -->
+                                    
+                                        <div id="map-overview" class="tab-pane">
+                                            <div class="row">
+                                                <div class="col-md-4 col-lg-4 tab-img">
+                                                    <img src="images/hotel-detail-tab-3.jpg" class="img-fluid" alt="flight-detail-img" />
+                                                </div><!-- end columns -->
+                                                
+                                                <div class="col-md-8 col-lg-8 tab-text">
+                                                    <h3>Our Map</h3>
+                                                    <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                                </div><!-- end columns -->
+                                            </div><!-- end row -->
+                                        </div><!-- end pick-up -->
+                                    
+                                    </div><!-- end tab-content -->
+                                </div><!-- end detail-tabs -->
+
+                                <div class="owl-carousel owl-theme owl-custom-arrow" id="owl-tour-offers">
+                                    <div class="grid-block main-block t-grid-block">
+                                        <div class="main-img t-grid-img">
+                                            <a href="images/room1.jpg" data-image="images/room1.jpg">
+                                                <img src="images/room1.jpg" class="img-fluid" alt="room 1" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-block main-block t-grid-block">
+                                        <div class="main-img t-grid-img">
+                                            <a href="images/room2.jpg" data-image="images/room2.jpg">
+                                                <img src="images/room2.jpg" class="img-fluid" alt="room 2" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-block main-block t-grid-block">
+                                        <div class="main-img t-grid-img">
+                                            <a href="images/room3.jpg" data-image="images/room3.jpg">
+                                                <img src="images/room3.jpg" class="img-fluid" alt="room 3" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="grid-block main-block t-grid-block">
+                                        <div class="main-img t-grid-img">
+                                            <a href="images/room4.jpg" data-image="images/room4.jpg">
+                                                <img src="images/room4.jpg" class="img-fluid" alt="room 4" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="image-overlay">
+                                    <span id="close-btn">&times;</span>
+                                    <img id="overlay-image" src="" alt="Overlay Image" style="width: 80%; height: auto;">
+                                </div>                                
+                                <ul class="list-unstyled features tour-features">
+                                    <li><div class="f-icon"><i class="fa fa-wheelchair"></i></div><div class="f-text"><p class="f-heading">Seats</p><p class="f-data">25</p></div></li>
+                                    <li><div class="f-icon"><i class="fa fa-calendar"></i></div><div class="f-text"><p class="f-heading">Duration</p><p class="f-data">7 DAYS</p></div></li>
+                                    <li><div class="f-icon"><i class="fa fa-clock-o"></i></div><div class="f-text"><p class="f-heading">Discount</p><p class="f-data">10% OFF</p></div></li>
+                                </ul>
+                            </div><!-- end detail-slider -->  
+                                                       
+                            <div class="pages pagination-margin">
+                                <ol class="pagination justify-content-center">
+                                    <li><a href="#" aria-label="Previous"><span aria-hidden="true"><i class="fa fa-angle-left"></i></span></a></li>
+                                    <li class="active"><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#" aria-label="Next"><span aria-hidden="true"><i class="fa fa-angle-right"></i></span></a></li>
+                                </ol>
+                            </div><!-- end pages -->
+                        </div><!-- end columns -->
+
+                        <div class="col-12 col-md-12 col-lg-3 side-bar right-side-bar">
+                            
+                            <div class="side-bar-block booking-form-block">
+                                <h2 class="selected-price">$568.00 <span>Sydney</span></h2>
+                            
+                                <div class="booking-form">
+                                    <h3>Book Tour</h3>
+                                    <p>Find your dream tour today</p>
+                                    
+                                    <form id="tour_frm_booking" name="tour_frm_booking" method="post">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name" id="txt_first_name" name="txt_first_name"/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name"  id="txt_last_name" name="txt_last_name"/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email"  id="txt_email" name="txt_email"/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Phone"  id="txt_phone" name="txt_phone"/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Country"  id="txt_country" name="txt_country"/>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control dpd3" placeholder="Booking Date" id="txt_booking_date" name="txt_booking_date"/>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-6 col-lg-12 col-xl-6 no-sp-r">
+                                                <div class="form-group right-icon">
+                                                    <select class="form-control" id="txt_adults" name="txt_adults">
+                                                        <option selected value="">Adults</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                    </select>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-md-6 col-lg-12 col-xl-6 no-sp-l">    
+                                                <div class="form-group right-icon">
+                                                    <select class="form-control" id="txt_children" name="txt_children">
+                                                        <option selected value="">Children</option>
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                    </select>
+                                                    <i class="fa fa-angle-down"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group right-icon">
+                                            <select class="form-control" id="txt_pay_method" name="txt_pay_method">
+                                                <option selected value="">Payment Method</option>
+                                                <option value="Credit Card">Credit Card</option>
+                                                <option value="Paypal">Paypal</option>
+                                            </select>
+                                            <i class="fa fa-angle-down"></i>
+                                        </div>
+                                        
+                                        <div class="checkbox custom-check">
+                                            <input type="checkbox" id="check01" name="checkbox"/>
+                                            <label for="check01"><span><i class="fa fa-check"></i></span>By continuing, you are agree to the <a href="#">Terms & Conditions.</a></label>
+                                        </div>
+                                        <div class="col-md-12 text-center" id="result_msg"></div>
+                                        <button class="btn btn-block btn-orange" type="submit" id="submit" name="submit">Confirm Booking</button>
+                                    </form>
+                                </div><!-- end booking-form -->
+                            </div><!-- end side-bar-block -->
+            <!-- replace this with read blogs-->                           
+                            <div class="row">
+                            
+                                <div class="col-12 col-md-6 col-lg-12">
+                                    <div class="side-bar-block main-block ad-block">
+                                        <div class="main-img ad-img">
+                                            <a href="https://www.creativetravelguide.com/travel-checklist-30-things-to-do-before-you-travel/" target="_blank">
+                                                <img src="byf-baggage-info.jpg" class="img-fluid" alt="blogs" >
+                                                <div class="ad-mask">
+                                                    <div class="ad-text">
+                                                        <span>Before</span>
+                                                        <h2>You</h2>
+                                                        <span>Travel</span>
+                                                    </div><!-- end ad-text -->
+                                                </div><!-- end columns -->
+                                            </a>
+                                        </div><!-- end ad-img -->
+                                    </div><!-- end side-bar-block -->
+                                </div><!-- end columns -->   
+                            </div>     
+                        </div>       
+            <!-- end replace this with read blogs-->  
+        <!--comments sec-->      
+    <section class="section-padding" style="padding-top: 0px;">
+
+        <div id="comments" class="container">
+                <div class="innerpage-heading" style="margin-bottom: 38px;">
+                    <h2>Comments</h2>
+                </div>
+                
+                <div class="comment-block">
+                    <div class="user-img">
+                        <img src="images/commenter-1.jpg" class="img-fluid" alt="user-img" />
+                    </div><!-- end user-img -->
+                    
+                    <div class="user-text">
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item user-name">Jhon Smith</li>
+                            <li class="list-inline-item date">27 May, 2017</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                        <a href="#"><span><i class="fa fa-reply"></i></span> Reply</a>
+                    </div><!-- end user-text -->
+                    
+                    <div class="comment-block reply-block">
+                        <div class="user-img">
+                            <img src="images/commenter-2.jpg" class="img-fluid" alt="user-img" />
+                        </div><!-- end user-img -->
+                        
+                        <div class="user-text">
+                            <ul class="list-inline list-unstyled">
+                                <li class="list-inline-item user-name">Jhon Smith</li>
+                                <li class="list-inline-item date">27 May, 2017</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                            <a href="#"><span><i class="fa fa-reply"></i></span> Reply</a>
+                        </div><!-- end user-text -->
+                    </div><!-- end reply-block -->
+                </div><!-- end comment-block -->
+
+                <div class="comment-block">
+                    <div class="user-img">
+                        <img src="images/commenter-3.jpg" class="img-fluid" alt="user-img" />
+                    </div><!-- end user-img -->
+                    
+                    <div class="user-text">
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item user-name">Jhon Smith</li>
+                            <li class="list-inline-item date">27 May, 2017</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                        <a href="#"><span><i class="fa fa-reply"></i></span> Reply</a>
+                    </div><!-- end user-text -->
+                </div><!-- end comment-block -->
+                
+                <div class="comment-block">
+                    <div class="user-img">
+                        <img src="images/commenter-4.jpg" class="img-fluid" alt="user-img" />
+                    </div><!-- end user-img -->
+                    
+                    <div class="user-text">
+                        <ul class="list-inline list-unstyled">
+                            <li class="list-inline-item user-name">Jhon Smith</li>
+                            <li class="list-inline-item date">27 May, 2017</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                        <a href="#"><span><i class="fa fa-reply"></i></span> Reply</a>
+                    </div><!-- end user-text -->
+                </div><!-- end comment-block -->                             
+                <div id="comment-form">
+                    <div class="innerpage-heading" style="margin-bottom: 38px;">
+                        <h2>Add Comment</h2>
+                    </div><!-- end innerpage-heading -->
+                    
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input input-lg" placeholder="Your Name"  required/>
+                                </div>
+                            </div><!-- end columns -->
+                        
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input input-lg" placeholder="Your Email"  required/>
+                                </div>
+                            </div><!-- end columns -->
+                        </div><!-- end row -->
+                        
+                        <div class="form-group">
+                            <textarea class="form-control input-lg" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="btn btn-orange">Submit</button>
+                    </form>
+                </div><!-- end comment-form -->
+            </div><!-- end comments -->
+                <!--available tours-->
+
+                <!--s-->  
+                <div class="available-blocks" id="available-tours">
+
+                    <h2>Other Available Tours</h2>
+                    <div class="list-block main-block t-list-block">
+                        <div class="list-content">
+                            <div class="main-img list-img t-list-img">
+                                <a href="adscontent-template-loggedin.html">
+                                    <img src="images/tour-list-1.jpg" class="img-fluid" alt="tour-img" />
+                                </a>
+                                <div class="main-mask">
+                                    <ul class="list-unstyled list-inline offer-price-1">
+                                        <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                        <li class="list-inline-item rating">
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                        </li>
+                                    </ul>
+                                </div><!-- end main-mask -->
+                            </div><!-- end t-list-img -->
+                            
+                            <div class="list-info t-list-info">
+                                <h3 class="block-title"><a href="adscontent-template-loggedin.html">Sydney</a></h3>
+                                <p class="block-minor">2 Adults, 02 Kids</p>
+                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                <a href="adscontent-template-loggedin.html" class="btn btn-orange btn-lg">View More</a>
+                            </div><!-- end t-list-info -->
+                        </div><!-- end list-content -->
+                    </div><!-- end t-list-block -->
+                            
+                    <div class="list-block main-block t-list-block">
+                        <div class="list-content">
+                            <div class="main-img list-img t-list-img">
+                                <a href="adscontent-template-loggedin.html">
+                                    <img src="images/tour-list-1.jpg" class="img-fluid" alt="tour-img" />
+                                </a>
+                                <div class="main-mask">
+                                    <ul class="list-unstyled list-inline offer-price-1">
+                                        <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                        <li class="list-inline-item rating">
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                        </li>
+                                    </ul>
+                                </div><!-- end main-mask -->
+                            </div><!-- end t-list-img -->
+                            
+                            <div class="list-info t-list-info">
+                                <h3 class="block-title"><a href="adscontent-template-loggedin.html">Sydney</a></h3>
+                                <p class="block-minor">2 Adults, 02 Kids</p>
+                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                <a href="adscontent-template-loggedin.html" class="btn btn-orange btn-lg">View More</a>
+                             </div><!-- end t-list-info -->
+                        </div><!-- end list-content -->
+                    </div><!-- end t-list-block -->
+
+                    <div class="list-block main-block t-list-block">
+                        <div class="list-content">
+                            <div class="main-img list-img t-list-img">
+                                <a href="adscontent-template-loggedin.html">
+                                    <img src="images/tour-list-1.jpg" class="img-fluid" alt="tour-img" />
+                                </a>
+                                <div class="main-mask">
+                                    <ul class="list-unstyled list-inline offer-price-1">
+                                        <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                        <li class="list-inline-item rating">
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                        </li>
+                                    </ul>
+                                </div><!-- end main-mask -->
+                            </div><!-- end t-list-img -->
+                            
+                            <div class="list-info t-list-info">
+                                <h3 class="block-title"><a href="adscontent-template-loggedin.html">Sydney</a></h3>
+                                <p class="block-minor">2 Adults, 02 Kids</p>
+                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                <a href="adscontent-template-loggedin.html" class="btn btn-orange btn-lg">View More</a>
+                             </div><!-- end t-list-info -->
+                        </div><!-- end list-content -->
+                    </div><!-- end t-list-block -->
+                    
+                    <div class="list-block main-block t-list-block">
+                        <div class="list-content">
+                            <div class="main-img list-img t-list-img">
+                                <a href="adscontent-template-loggedin.html">
+                                    <img src="images/tour-list-1.jpg" class="img-fluid" alt="tour-img" />
+                                </a>
+                                <div class="main-mask">
+                                    <ul class="list-unstyled list-inline offer-price-1">
+                                        <li class="list-inline-item price">$568.00<span class="divider">|</span><span class="pkg">7 Days Tour</span></li>
+                                        <li class="list-inline-item rating">
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star orange"></i></span>
+                                            <span><i class="fa fa-star lightgrey"></i></span>
+                                        </li>
+                                    </ul>
+                                </div><!-- end main-mask -->
+                            </div><!-- end t-list-img -->
+                            
+                            <div class="list-info t-list-info">
+                                <h3 class="block-title"><a href="adscontent-template-loggedin.html">Sydney</a></h3>
+                                <p class="block-minor">2 Adults, 02 Kids</p>
+                                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                <a href="adscontent-template-loggedin.html" class="btn btn-orange btn-lg">View More</a>
+                             </div><!-- end t-list-info -->
+                        </div><!-- end list-content -->
+                    </div><!-- end t-list-block -->
+                </div> <!--end avail tours-->                        
+            </section><!-- end innerpage-wrapper -->
+        </div><!-- end container -->
+    </div><!-- end tour-detail -->
+</section><!-- end innerpage-wrapper -->
+
+<!--========================= NEWSLETTER-1 ==========================-->
+<section id="newsletter-1" class="section-padding back-size newsletter"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h2>Subscribe Our Newsletter</h2>
+                <p>Get access to exclusive deals, insider tips, and new destinations right in your inbox.</p>    
+                <form>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="email" class="form-control input-lg" placeholder="Enter your email address" required/>
+                            <span class="input-group-btn"><button class="btn btn-lg"><i class="fa fa-envelope"></i></button></span>
+                        </div>
+                    </div>
+                </form>
+            </div><!-- end columns --> 
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end newsletter-1 -->
+
+
+<!--universal FOOTER-->
+<section id="footer" class="ftr-heading-w ftr-heading-mgn-2">
+    <div id="footer-top" class="banner-padding ftr-top-grey ftr-text-grey st" style="padding-top: 30px; padding-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-md-12 col-lg-5 col-xl-5 footer-widget ftr-about ftr-our-company">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <p>28 ABC, Brisbane City, QLD <br> +00 123 4567</p>
+                    <ul class="social-links list-inline list-unstyled">
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/facebook.png" alt="Facebook"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/twitter.png" alt="Twitter"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/instagram.png" alt="Instagram"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/yt.png" alt="YouTube"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/linkedin.png" alt="LinkedIn"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/gmail.png" alt="Gmail"></span></a></li>
+                        <li class="list-inline-item"><a href="#"><span><img src="images/icons/pinterest.png" alt="Pinterest"></span></a></li>
+                    </ul>
+
+                </div>                      
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end footer-top -->
+
+    <div id="footer-bottom" class="ftr-bot-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="copyright">
+                    <p>© 2023 <a href="#">Discoveru Travels</a>. All rights reserved.</p>
+                </div><!-- end columns -->
+                
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="terms">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a href="#">Terms & Condition</a></li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of univ foot-->
+                        
+    <!-- Page Scripts Starts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap-4.4.1.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom-navigation.js"></script>
+    <script src="js/custom-date-picker.js"></script>
+    <script src="js/custom-slick.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/custom-validation.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap-4.4.1.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom-navigation.js"></script>
+    <script src="js/custom-flex.js"></script>
+    <script src="js/custom-owl.js"></script>
+    <script src="js/custom-date-picker.js"></script>
+    <!-- added for overlay only -->
+    <script>
+        const imageOverlay = document.getElementById('image-overlay');
+        const closeBtn = document.getElementById('close-btn');
+
+        const imageLinks = document.querySelectorAll('[data-image]');
+
+        imageLinks.forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const imageUrl = link.getAttribute('data-image');
+                const overlayImage = document.getElementById('overlay-image');
+                overlayImage.src = imageUrl;
+
+                imageOverlay.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            imageOverlay.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+    </script>
+</body>
+</html>

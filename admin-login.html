@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Discoveru Travels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="images/icons/favicon.png" type="image/x-icon">   
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap-4.4.1.min.css">
+
+    <!-- Font Awsome Stylesheet -->
+    <link rel="stylesheet" href="vendors/fontawesome5.7.2/css/all.min.css">
+
+    <!-- Custom Stylesheet Start-->
+    <link rel="stylesheet" type="text/css" href="css/admin-style.css">
+    <link rel="stylesheet" type="text/css" href="css/admin-responsive.css">
+    
+</head>
+
+<body>
+    <a href="discoveru.html" class="btn btn-primary ml-5 mt-5 sh-above position-absolute">Go Back</a>
+    <section class="login-form common-form bg-image flex-centering"> <!-- start login section -->
+        <div class="container-fluid">
+            <div class="meta">
+                <div class="row">
+                    <div class="col-sm-5 col-md-4 col-lg-3 ml-sm-auto pr-sm-0">
+                        <div class="white-box left-side sh-above">
+                             <h2 class="">Welcome to</h2>
+                            <div class="img">
+                                <img src="images/icons/discoverulogo.png" alt="logo-img" class="img-fluid ">
+                            </div>
+                            <ul class="social list-unstyled  flex-centering">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="list-inline-item"><a href="https://au.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-md-5 col-lg-4 mr-sm-auto pl-sm-0">
+                        <div class="white-box sh-above flex-centering">
+                            <form id="adminLoginForm" class="common-form">
+                                <h4>Sales Team Login</h4>
+                                <p>Only admin provided credentials may log in.</p>
+                                <div class="form-group mt">
+                                    <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" required>
+                                    <label class="custom-control-label" for="customCheck1">Remember Me</label>
+                                </div>
+                                <ul class="list-unstyled info">
+                                    <li>
+                                        <p><a href="#" class="new-acc" data-toggle="modal" data-target="#forgotPasswordModal">Forgot Password?</a></p>
+                                    </li>
+                                    <li><button type="submit" class="btn d-block">Login</button></li>
+                                    <li>                                
+                                        <p class="text-center">Or login as <a href="a-admin-mod.html")>Admin</a> instead.</p>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <footer class="sh-above"> <!-- Footer -->       
+                <p>2023 DiscoverU Travels</p>
+            </footer>
+        </div>
+<!-- Modal -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1" role="dialog" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forgotPasswordModalLabel">Forgot Password?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Check your email for the password reset link.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- end of login section -->
+<!-- scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.min.js"></script>
+
+<!--custom scripts --> 
+    <script>
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent form submission
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("exampleInputPassword1").value;
+
+            // Check if the username and password match the admin's credentials (for testing purposes)
+            const ADMIN_USERNAME = "sales";
+            const ADMIN_PASSWORD = "sales123";
+
+            if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
+                alert("Login successful!");
+                // Redirect to the dashboard page (you can replace this with your desired action)
+               window.open("dashboard.html", "_blank");
+            } else {
+                alert("Incorrect credentials. Please try again.");
+            }
+        }
+
+        // Add event listener to form submission
+        const adminLoginForm = document.getElementById("adminLoginForm");
+        adminLoginForm.addEventListener("submit", handleFormSubmit);
+    </script>
+</body>
+</html>
